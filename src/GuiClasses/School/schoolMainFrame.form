@@ -289,7 +289,7 @@
                   <text value="Start Date"/>
                 </properties>
               </component>
-              <component id="17d02" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+              <component id="17d02" class="javax.swing.JTextField" binding="registerDriStartTf">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -310,10 +310,10 @@
                   <background color="-1"/>
                   <font name="Roboto" size="14" style="1"/>
                   <foreground color="-16777216"/>
-                  <text value="Program Type"/>
+                  <text value="Program "/>
                 </properties>
               </component>
-              <component id="356d0" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+              <component id="356d0" class="javax.swing.JTextField" binding="registerDriProgramTf">
                 <constraints>
                   <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -385,7 +385,7 @@
                   <text value="ID"/>
                 </properties>
               </component>
-              <component id="26080" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+              <component id="26080" class="javax.swing.JTextField" binding="changeInfoIdTf">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -409,7 +409,7 @@
                   <text value="First Name"/>
                 </properties>
               </component>
-              <component id="56f95" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+              <component id="56f95" class="javax.swing.JTextField" binding="changeInfoFNameTf">
                 <constraints>
                   <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -433,7 +433,7 @@
                   <text value="Last Name"/>
                 </properties>
               </component>
-              <component id="b3ea1" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+              <component id="b3ea1" class="javax.swing.JTextField" binding="changeInfoLNameTf">
                 <constraints>
                   <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -458,7 +458,7 @@
                   <text value="Date of Birth"/>
                 </properties>
               </component>
-              <component id="63780" class="javax.swing.JTextField" binding="textField9" default-binding="true">
+              <component id="63780" class="javax.swing.JTextField" binding="changeInfoBirthTf">
                 <constraints>
                   <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -493,7 +493,7 @@
                   <text value="Phone"/>
                 </properties>
               </component>
-              <component id="efe43" class="javax.swing.JTextField" binding="textField11" default-binding="true">
+              <component id="efe43" class="javax.swing.JTextField" binding="changeInfoPhoneTf">
                 <constraints>
                   <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -506,7 +506,7 @@
                   <foreground color="-16777216"/>
                 </properties>
               </component>
-              <component id="cae3e" class="javax.swing.JTextField" binding="textField12" default-binding="true">
+              <component id="cae3e" class="javax.swing.JTextField" binding="changeInfoEmailTf">
                 <constraints>
                   <grid row="13" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -541,7 +541,7 @@
                   <text value="Address"/>
                 </properties>
               </component>
-              <component id="2f149" class="javax.swing.JTextField" binding="textField13" default-binding="true">
+              <component id="2f149" class="javax.swing.JTextField" binding="changeInfoAddressTf">
                 <constraints>
                   <grid row="15" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -601,7 +601,7 @@
                   <text value="Clear"/>
                 </properties>
               </component>
-              <component id="5b6ff" class="javax.swing.JRadioButton" binding="maleRadioButton" default-binding="true">
+              <component id="5b6ff" class="javax.swing.JRadioButton" binding="changeInfomaleRadioBtn">
                 <constraints>
                   <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -612,7 +612,7 @@
                   <text value="Male"/>
                 </properties>
               </component>
-              <component id="cc619" class="javax.swing.JRadioButton" binding="femaleRadioButton" default-binding="true">
+              <component id="cc619" class="javax.swing.JRadioButton" binding="changeInfofemaleRadioBtn">
                 <constraints>
                   <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -634,7 +634,7 @@
                   <text value="Start Date"/>
                 </properties>
               </component>
-              <component id="896ce" class="javax.swing.JTextField" binding="textField15" default-binding="true">
+              <component id="896ce" class="javax.swing.JTextField" binding="changeInfoStartTf">
                 <constraints>
                   <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -658,7 +658,7 @@
                   <text value="End Date"/>
                 </properties>
               </component>
-              <component id="8b33b" class="javax.swing.JTextField" binding="textField16" default-binding="true">
+              <component id="8b33b" class="javax.swing.JTextField" binding="changeInfoEndTf">
                 <constraints>
                   <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -682,7 +682,7 @@
                   <text value="Password"/>
                 </properties>
               </component>
-              <component id="71cb4" class="javax.swing.JTextField" binding="textField17" default-binding="true">
+              <component id="71cb4" class="javax.swing.JTextField" binding="changeInfoPassTf">
                 <constraints>
                   <grid row="5" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="200" height="-1"/>
@@ -706,7 +706,7 @@
                   <text value="Program"/>
                 </properties>
               </component>
-              <component id="6f5cc" class="javax.swing.JTextField" binding="textField10" default-binding="true">
+              <component id="6f5cc" class="javax.swing.JTextField" binding="changeInfoProgramTf">
                 <constraints>
                   <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <minimum-size width="200" height="-1"/>

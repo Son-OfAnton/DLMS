@@ -1,5 +1,8 @@
 package GuiClasses.School;
 
+import CoreClasses.Hospital;
+import CoreClasses.School;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -28,37 +31,38 @@ public class schoolMainFrame extends JFrame {
     private JTextField textField1;
     private JTextField textField2;
     private JTextField textField3;
-    private JTextField textField4;
-    private JTextField textField5;
-    private JTextField textField6;
-    private JTextField textField7;
-    private JTextField textField8;
-    private JTextField textField9;
-    private JTextField textField11;
-    private JTextField textField12;
-    private JTextField textField13;
-    private JTextField textField15;
-    private JTextField textField16;
-    private JTextField textField17;
+    private JTextField registerDriStartTf;
+    private JTextField registerDriProgramTf;
+    private JTextField changeInfoIdTf;
+    private JTextField changeInfoFNameTf;
+    private JTextField changeInfoLNameTf;
+    private JTextField changeInfoBirthTf;
+    private JTextField changeInfoPhoneTf;
+    private JTextField changeInfoEmailTf;
+    private JTextField changeInfoAddressTf;
+    private JTextField changeInfoStartTf;
+    private JTextField changeInfoEndTf;
+    private JTextField changeInfoPassTf;
     private JButton searchButton;
     private JButton updateButton;
     private JButton clearButton;
-    private JRadioButton maleRadioButton;
-    private JRadioButton femaleRadioButton;
-    private JTextField textField10;
+    private JRadioButton changeInfomaleRadioBtn;
+    private JRadioButton changeInfofemaleRadioBtn;
+    private JTextField changeInfoProgramTf;
 
     public schoolMainFrame(JFrame parent) {
         super();
         setTitle("School Main Frame");
         setContentPane(schMainPnl);
-        setMinimumSize(new Dimension(711,640));
+        setMinimumSize(new Dimension(711, 640));
         setLocationRelativeTo(parent);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setVisible(true);
     }
-
-    public static void main(String[] args) {
-        schoolMainFrame smf = new schoolMainFrame(null);
+    public void boot(School sch) {
     }
 
+    public static void main(String[] args) {
+
+    }
 }

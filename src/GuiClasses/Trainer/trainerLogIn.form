@@ -54,7 +54,7 @@
               <foreground color="-16777216"/>
             </properties>
           </component>
-          <component id="b6c85" class="javax.swing.JPasswordField" binding="trainerPassTf">
+          <component id="b6c85" class="javax.swing.JPasswordField" binding="trainerPf">
             <constraints>
               <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="100" height="-1"/>

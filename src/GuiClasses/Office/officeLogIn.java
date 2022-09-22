@@ -1,7 +1,10 @@
 package GuiClasses.Office;
 
 import javax.swing.*;
+import javax.swing.plaf.FontUIResource;
+import javax.swing.text.StyleContext;
 import java.awt.*;
+import java.util.Locale;
 
 public class officeLogIn extends JFrame {
     private JPanel officeLogInPanel;
@@ -21,7 +24,7 @@ public class officeLogIn extends JFrame {
         super();
         setTitle("Office Login");
         setContentPane(officeLogInPanel);
-        setMinimumSize(new Dimension(450,450));
+        setMinimumSize(new Dimension(450, 450));
         setLocationRelativeTo(parent);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setVisible(true);
@@ -34,4 +37,5 @@ public class officeLogIn extends JFrame {
     private void createUIComponents() {
         // TODO: place custom component creation code here
     }
+
 }
