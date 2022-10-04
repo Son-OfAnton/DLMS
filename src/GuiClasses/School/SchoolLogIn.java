@@ -42,7 +42,7 @@ public class SchoolLogIn extends JFrame {
 
                 if(sch != null) {
                     dispose();
-                    boot(sch);
+                    SchoolMainFrame.boot(sch);
                     System.out.println("Successful authentication of school: " + sch.getName());
                     System.out.println("            " + sch.getId());
                     System.out.println("            " + sch.getPhone());
