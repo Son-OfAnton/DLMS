@@ -40,6 +40,9 @@ select * from `Driver`;]]></console>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="70828ff3-da70-4d5c-86a0-07ccf5ad1815" />
   </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="70828ff3-da70-4d5c-86a0-07ccf5ad1815" dataset="DLMS.Driver" active-filter-id="" />
+  </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
