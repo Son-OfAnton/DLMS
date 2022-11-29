@@ -1,4 +1,4 @@
 package CoreClasses;
 
-public class School extends Organization {
+public class School extends Organization{
 }

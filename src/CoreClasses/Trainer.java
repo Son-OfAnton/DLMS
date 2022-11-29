@@ -1,4 +1,4 @@
 package CoreClasses;
 
-public class Trainer extends Person {
+public class Trainer extends Person{
 }

@@ -8,8 +8,6 @@ public class Person {
     String sex;
     String phone;
     String email;
-    String address;
-    String pass;
 
     public int getId() {
         return id;
@@ -82,4 +80,9 @@ public class Person {
     public void setPass(String pass) {
         this.pass = pass;
     }
+
+    String address;
+    String pass;
+
+
 }
