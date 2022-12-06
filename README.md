@@ -8,5 +8,5 @@ https://www.linkedin.com/mwlite/in/admas-girma
 Used intellij ide to the gui so the generated gui will open only on intellij for now
 
 # contributors 
-Admas Girma
+Admas Girma</br>
 Noah Mohammed 
